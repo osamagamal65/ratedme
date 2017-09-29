@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Takiymi- Rated ME </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <link href="asstes/css/signup.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Lemonada|Rakkas|Source+Sans+Pro" rel="stylesheet">
+    <script src="asstes/js/jquery-3.1.1.min.js" type="text/javascript"></script>
+    <link href="asstes/css/animate.css" rel="stylesheet" >
+     <script>
+        $(document).ready(function () {
+            $('#container').addClass('animated pulse');
+            $('input').click(function () {
+                $(this).addClass('animated pulse');
+            });
+            $('botton').click(function () {
+                $(this).addClass('animated pulse');
+            });
+        });
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body> 
+    
+    <div id="container">
+
+    <div id="head">
+        <h1 style="font-family: 'Lemonada', cursive; font-size:150px;">تقيمي</h1>
+        <p id="p-home" style="font-family: 'Lemonada', cursive; margin-top:20px;">النااس شايفاك ازااي !! تقيميك  </p>
+        </div>
+
+        <div  id="form-container">
+        <form><br>
+       
+            <p id="p-create">أبدأ بعمل حسااب </p>
+            <input id="user-in" type="text" placeholder=" اسم المستخدم ">
+            <input id="user-email"type="email" placeholder=" البريد الالكتروني">
+            <input id="user-pass" type="password" placeholder="  كلمه المرور">
+            <input id="user-pass-confirm" type="password" placeholder="  تأكيد كلمه المرور">
+            <input id="user-file-input" type="file">  <br>
+            <button id="user-signup" type="submit">أنشاء حساب  </button>
+            </form>
+            <p id="login-go"> لديك حساب بالفعل <br> <a href="login.html">تسجيل الدخول </a></p>
+        </div>
+            </div>
+    <div id="opa"><div></div></div>
+    </body>
+
+</html>

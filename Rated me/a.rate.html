@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rated me| تقيمي </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Lemonada|Rakkas|Source+Sans+Pro" rel="stylesheet">
+    <script src="asstes/js/jquery-3.1.1.min.js" type="text/javascript"></script>
+        <script src="asstes/js/jquery-ui.min.js" type="text/javascript"></script>
+    <link href="asstes/css/jquery-ui.min.css" rel="stylesheet" type="text/css">
+    <link href="asstes/css/rate.css" type="text/css" rel="stylesheet">
+    
+    <script src="asstes/js/rate.js" type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+    <body> 
+<div id="container">
+      <h1 style="font-family: 'Lemonada', cursive; font-size:50px;"> <span class="eng"> Rated Me   </span><span class="arabic"> تقييمي  </span></h1>
+    <div id="rate-area">
+       
+    <div id="profile">
+         <h1 id="user-name"  style="font-family: 'Lemonada', cursive;" >مها السعيد </h1>
+        <img id="prof-img" src="asstes/img/tumblr_oodyqxs1lz1qcqckto1_540.jpg"></div>
+    
+    </div>
+
+       <form>          
+
+    <input type="text" id="msg" placeholder="  اترك تعليق "  style="font-size:25px; height:120px; font-family: 'Lemonada', cursive;"> <br>
+<strong style="font-family: 'Lemonada', cursive;">الشخصيه</strong><br> <input type="range" id="per" min="0" max="100" onchange=""><span id="per-s"></span> <br>
+           <strong style="font-family: 'Lemonada', cursive;">الروح </strong><br> <input type="range" id="soul"><span id="soul-s"></span><br>
+           <strong style="font-family: 'Lemonada', cursive;">الاخلاق</strong> <br> <input type="range" id="mor"> <span id="mor-s"></span><br>
+           <strong style="font-family: 'Lemonada', cursive;">المظهر العام </strong> <br><input type="range" id="look"><span id="look-s"></span> <br>
+           <strong style="font-family: 'Lemonada', cursive;">الذكاء </strong><br> <input type="range" id="inte"><span id="inte-s"></span><br> 
+         <button onclick="submit" id="rate-submit" style="font-family: 'Lemonada', cursive;">  قييمني </button>
+    </form>
+</div>
+    
+
+    </body>
+
+</html> 
